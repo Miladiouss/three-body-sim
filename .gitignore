@@ -1,0 +1,119 @@
+# === Data ===
+# Ignore the content of data/ directory except for README.md files
+/data/*
+!/data/README.md
+
+!/data/figures/
+/data/figures/*
+!/data/figures/README.md
+
+!/data/input/
+/data/input/*
+!/data/input/README.md
+
+
+!/data/output/
+/data/output/*
+!/data/output/README.md
+
+!/data/logs/
+/data/logs/*
+!/data/logs/README.md
+
+# === IDE ===
+
+# VS Code
+.vscode/
+
+# Spyder
+.spyproject/
+
+# Jupyter NB Checkpoints
+.ipynb_checkpoints/
+
+# === Others ===
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# DotEnv configuration
+.env
+
+# Database
+*.db
+*.rdb
+
+# Pycharm
+.idea
+
+# exclude local config from source control by default
+catalog/config.ini
+
+# Mac OS-specific storage files
+.DS_Store
+
+# Vim
+*.swp
+*.swo
+
+# Emacs
+*~
+.*~
+
+# Makefile Machinery
+.make.*
